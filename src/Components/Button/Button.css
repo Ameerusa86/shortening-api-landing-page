@@ -1,10 +1,10 @@
 .button {
-  color: white;
-  background-color: hsl(180, 66%, 49%);
-  font-size: 16px;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    font-size: 16px;
 }
 
 .button:hover {
-  cursor: pointer;
-  background-color: hsl(179, 56%, 75%);
+    cursor: pointer;
+    background-color: hsl(179, 56%, 75%);
 }

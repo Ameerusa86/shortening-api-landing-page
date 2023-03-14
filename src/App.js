@@ -1,5 +1,5 @@
 import "./App.css";
-import AdvancedStatistics from "./Components/AdvancedStatistics/AdvancedStatistics";
+import AdvancedStatistics from "./Components/AdvancedStatistics/AdcancedStatistics";
 import BeforeFooter from "./Components/BeforeFooter/BeforeFooter";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";

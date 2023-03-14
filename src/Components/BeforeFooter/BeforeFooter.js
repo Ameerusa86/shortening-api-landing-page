@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
+import './BeforeFooter.css';
+import Button from '../Button/Button';
 
-const BeforeFooter = () => {
-  return <div>BeforeFooter</div>;
-};
-
-export default BeforeFooter;
+export default function BeforeFooter() {
+    return (
+        <div className='beforeFooter'>
+            <h2>Boost your links today</h2>
+            <Button styles={{borderRadius: 50, width: 200, padding: '15px 0'}}>Get Started</Button>
+        </div>
+    )
+}

@@ -1,0 +1,56 @@
+footer {
+    background-color: hsl(260, 8%, 14%);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+
+footer > h2,
+footer h3
+ {
+    color: white;
+    text-align: center;
+}
+
+footer > h2 {
+    font-size: 2rem;
+}
+
+footer li{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(257, 7%, 63%);
+}
+footer > ul {
+    list-style: none;
+    padding: 0;
+} 
+
+@media screen and (min-width: 800px) {
+    footer {
+        background-color: hsl(260, 8%, 14%);
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 50px 0;
+    }
+
+    footer h2,
+    footer h3 {
+        margin: 0;
+    }
+
+    footer h3,
+    footer li {
+        text-align: left;
+    }
+
+}

@@ -1,0 +1,11 @@
+.socialIcon {
+    margin: 10px;
+}
+
+.icons {
+    color: white;
+}
+
+.icons:hover {
+    color: hsl(180, 66%, 49%);
+}
