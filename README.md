@@ -16,7 +16,7 @@ This is a solution to the
 
 ### Screenshots
 
-![](./design/desktop-design.jpg)
+![dfg](./design/desktop-design.jpg)
 
 ## Table of contents
 
