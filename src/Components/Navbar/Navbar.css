@@ -1,0 +1,142 @@
+.mobile-nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  margin: 40px 25px 20px;
+}
+
+.website-logo {
+  margin-left: 24px;
+  flex-shrink: 0;
+}
+.mobile-burger {
+  margin-right: 24px;
+}
+
+.mobile-burger {
+  border: none;
+  min-height: 30px;
+  min-width: 30px;
+  background-color: transparent;
+}
+
+.mobile-burger:hover {
+  cursor: pointer;
+}
+
+.button-burger {
+  display: block;
+  margin: 6px 0;
+  height: 3px;
+  width: 25px;
+  background-color: hsl(0, 0%, 75%);
+}
+
+.nav-menu {
+  display: none;
+  position: absolute;
+  width: 88%;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 40px 0;
+  border-radius: 10px;
+  background-color: hsl(257, 27%, 26%);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  animation: dropDown 1s ease-in-out 0s forwards;
+}
+.nav-menu * {
+  overflow: hidden;
+}
+
+.nav-menu hr {
+  width: 80%;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 35%);
+}
+
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  padding: 21px 0;
+}
+
+.nav-menu li,
+.nav-menu p {
+  color: white;
+}
+
+.authentication {
+  width: 100%;
+}
+
+@keyframes dropDown {
+  0% {
+    max-height: 1px;
+  }
+  100% {
+    max-height: 415px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .website-logo {
+    margin-left: 140px;
+    width: max-content;
+  }
+  .mobile-burger {
+    display: none;
+  }
+
+  .mobile-nav {
+    margin: 0;
+  }
+
+  .nav-menu {
+    margin-right: 140px;
+    position: static;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: transparent;
+    justify-content: space-between;
+    width: 100%;
+    color: hsl(0, 0%, 75%);
+    transform: translateX(0);
+  }
+
+  .nav-left,
+  .authentication {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    width: max-content;
+  }
+
+  .nav-left li,
+  .authentication p {
+    color: hsl(0, 0%, 75%);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: max-content;
+  }
+  .authentication a {
+    width: max-content;
+  }
+
+  .authentication button {
+    margin-left: 20px;
+  }
+
+  .divider-line {
+    display: none;
+  }
+}
