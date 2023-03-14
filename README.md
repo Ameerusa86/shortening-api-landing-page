@@ -42,15 +42,3 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
 
-### Screenshot
-
-![screenshot of my solution](sc-desktop.png)
-
-## My process
-
-### Built with
-
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
