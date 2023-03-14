@@ -14,6 +14,10 @@
 This is a solution to the
 [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
 
+### Screenshots
+
+![](./design/desktop-design.jpg)
+
 ## Table of contents
 
 - [Frontend Mentor - Shortly URL shortening API Challenge solution](#frontend-mentor---shortly-url-shortening-api-challenge-solution)
@@ -41,4 +45,3 @@ Users should be able to:
 - Copy the shortened link to their clipboard in a single click
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
-
