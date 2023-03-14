@@ -1,16 +1,18 @@
 ## Author
 
 - Website - [Ameer Alhasnawi](https://ameer-portfolio2023.netlify.app/)
-- Frontend Mentor - [@Ameerusa86](https://www.frontendmentor.io/profile/Ameerusa86)
+- Frontend Mentor -
+  [@Ameerusa86](https://www.frontendmentor.io/profile/Ameerusa86)
 
 ### Links
 
-- [Solution URL](https://github.com/yingmo55/URL-shortening-API-landing-page)
-- [Live Site URL](https://shortenurl-ying.netlify.app/)
+- [Solution URL](https://github.com/Ameerusa86/shortening-api-landing-page.git)
+- [Live Site URL](https://shorten-api2023.netlify.app/)
 
 # Frontend Mentor - Shortly URL shortening API Challenge solution
 
-This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
+This is a solution to the
+[Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
 
 ## Table of contents
 
